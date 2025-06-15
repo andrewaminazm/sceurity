@@ -1,0 +1,36 @@
+{
+    "URL": "https://reqres.in/api/users/2",
+    "HTTPS Enabled": true,
+    "Security Headers": {
+        "Content-Security-Policy": "Missing",
+        "Strict-Transport-Security": "Missing",
+        "X-Frame-Options": "Missing",
+        "X-Content-Type-Options": "Missing",
+        "Referrer-Policy": "Missing",
+        "Permissions-Policy": "Missing"
+    },
+    "CORS Policy": "*",
+    "Allowed HTTP Methods": {
+        "GET": 200,
+        "POST": 401,
+        "PUT": 401,
+        "DELETE": 401,
+        "OPTIONS": 204
+    },
+    "Sensitive Files": {
+        ".env": "Not Found",
+        ".git/config": "Not Found",
+        "backup.zip": "Not Found"
+    },
+    "Directory Listing": "Not Found",
+    "Open Ports": [
+        80,
+        443,
+        8080
+    ],
+    "Injection Points": {
+        "SQL Injection": "Clean",
+        "Command Injection": "Clean",
+        "XSS": "Clean"
+    }
+}
